@@ -1,1 +1,1 @@
-web: gunicorn vicky/wsgi.py -b 0.0.0.0:$PORT
+web: gunicorn vicky.wsgi -b 0.0.0.0:$PORT
